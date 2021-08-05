@@ -1,0 +1,47 @@
+{
+  "name": "darksky",
+  "homepage": "https://malcolmbyrd.github.com/darksky",
+  "version": "0.0.1",
+  "description": "A weather app to show weather report using darksky, reactjs, and plotly.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/malcolmbyrd/darksky"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "darksky",
+    "forecast.io",
+    "plotly",
+    "plotly.js",
+    "create-react-app",
+    "CORS",
+    "proxy"
+  ],
+  "author": "twitter.com/_malcolmbyrd (http://github.com/malcolmbyrd)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/malcolmbyrd/darksky/issues"
+  },
+
+  "proxy": "http://localhost:3001",
+  
+  "devDependencies": {
+    "react-scripts": "0.8.5"
+  },
+
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "lodash": "^4.17.4",
+    "plotly.js": "1.26.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
